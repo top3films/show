@@ -1,0 +1,80 @@
+@charset "utf-8";
+.infoWrapper {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  background-color: #1f1f1f;
+  display: none;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 11;
+}
+.infoWrapper .infoBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 500px;
+  background-color: #cccccc;
+  margin-top: -250px;
+  margin-left: -400px;
+  box-shadow: 0 0 30px white;
+}
+.infoWrapper .infoBox .story {
+  float: left;
+  width: 500px;
+  height: 500px;
+  background-color: #696969;
+  overflow: auto;
+}
+.infoWrapper .infoBox .story img {
+  box-shadow: 0 0 10px black;
+}
+.infoWrapper .infoBox .actor {
+  float: right;
+  width: 300px;
+  height: 500px;
+  background-color: #6e5e5e;
+}
+.infoWrapper .infoBox .actor img {
+  width: 200px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+}
+.infoWrapper .infoBox .actor .actorName {
+  width: 260px;
+  margin: 10px auto 0;
+}
+.infoWrapper .infoBox .actor .actorName .people {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+.infoWrapper h1 {
+  width: 400px;
+  font-size: 30px;
+  color: #ccc;
+  margin: 20px auto 0;
+}
+.infoWrapper .synopsis {
+  width: 400px;
+  margin: 20px auto 0;
+  color: #eee;
+  font-size: 14px;
+  line-height: 20px;
+}
+.infoWrapper .filmPhoto {
+  width: 400px;
+  margin: 20px auto 0;
+}
+.infoWrapper .offBox .offButton {
+  float: right;
+  width: 45px;
+  height: 60px;
+  opacity: 0.5;
+}
+.infoWrapper .offBox .offButton:hover {
+  opacity: 1;
+}
